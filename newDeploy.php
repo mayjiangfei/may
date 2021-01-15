@@ -1,6 +1,6 @@
 <?php
 echo "开始部署<br>";
-chdir("/var/www/blog/usr/themes/handsome");
+chdir("/opt/may");
 exec("git pull 2>&1", $out);
 foreach($out as $v)
 {
